@@ -1,0 +1,11 @@
+<odoo>
+    <data>
+        <record id="list_view_action" model="ir.actions.client">
+            <field name="name">OWL List View</field>
+            <field name="tag">owl_17.action_list_view</field>
+        </record>
+        <!-- Top menu item -->
+
+        <menuitem name="OWL List View" id="custom_list_view_menu" action="list_view_action"/>
+    </data>
+</odoo>
